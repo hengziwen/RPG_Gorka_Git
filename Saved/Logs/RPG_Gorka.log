@@ -2381,3 +2381,1324 @@ Script call stack:
 [2025.02.27-08.19.02:647][971]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
 [2025.02.27-08.19.02:658][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
 [2025.02.27-08.19.02:682][972]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.02.27-08.20.57:757][642]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1611.466675
+[2025.02.27-08.20.58:757][645]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.27-08.20.58:758][645]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1612.133179, Update Interval: 357.949158
+[2025.02.27-08.25.26:687][709]LogDebuggerCommands: Repeating last play command: 新建编辑器窗口（PIE）
+[2025.02.27-08.25.26:692][709]LogContentBundle: [ThirdPersonMap(独立)] Generating Streaming for 0 Content Bundles.
+[2025.02.27-08.25.26:692][709]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.02.27-08.25.26:694][709]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.824 ms (total: 36.789 ms)
+[2025.02.27-08.25.26:696][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.27-08.25.26:696][709]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-08.25.26:700][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003882s)
+[2025.02.27-08.25.26:700][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003923s)
+[2025.02.27-08.25.26:722][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.02.27-08.25.26:723][709]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.02.27-08.25.26:724][709]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.27-08.25.26:724][709]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.27-08.25.26:724][709]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.27-08.25.26:724][709]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.27-08.25.26:726][709]LogWorldPartition: Display: WorldPartition initialize took 1.132 ms (total: 372.151 ms)
+[2025.02.27-08.25.26:726][709]LogPlayLevel: PIE: World Init took: (0.002669s)
+[2025.02.27-08.25.26:726][709]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.02.27-08.25.26:726][709]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.27-08.25.26:726][709]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.27-08.25.26:726][709]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.27-08.25.26:726][709]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.27-08.25.26:726][709]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.27-08.25.26:726][709]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.27-08.25.26:726][709]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.27-08.25.26:726][709]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.27-08.25.26:726][709]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.27-08.25.26:726][709]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.27-08.25.26:726][709]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.27-08.25.26:729][709]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.27-08.25.26:740][709]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2025.02.27-08.25.26:741][709]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.27-08.25.26:741][709]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.27-08.25.26:741][709]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.27-08.25.26:741][709]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.02.27-08.25.26:742][709]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.02.27-08.25.26:744][709]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.02.27-08.25.26:744][709]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.02.27-08.25.26:744][709]LogInit: FAudioDevice initialized with ID 14.
+[2025.02.27-08.25.26:744][709]LogAudio: Display: Audio Device (ID: 14) registered with world 'ThirdPersonMap'.
+[2025.02.27-08.25.26:744][709]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.02.27-08.25.26:771][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-08.25.26:771][709]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.02.27-08.25.26:779][709]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.02.27-16.25.26
+[2025.02.27-08.25.26:780][709]LogWorld: Bringing up level for play took: 0.008508
+[2025.02.27-08.25.26:783][709]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2025.02.27-08.25.26:791][709]PIE: 登陆的服务器
+[2025.02.27-08.25.26:793][709]PIE: PIE总开始时间：0.101秒。
+[2025.02.27-08.25.49:996][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-08.25.49:997][ 96]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-08.25.49:997][ 96]LogSlate: Window 'RPG_Gorka 预览 [NetMode: Standalone 0]  （64-bit/PC D3D SM6）' being destroyed
+[2025.02.27-08.25.50:004][ 96]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-08.25.50:004][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.25.50:004][ 96]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.02.27-08.25.50:008][ 96]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.27-08.25.50:012][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.25.50:031][ 96]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.02.27-08.25.50:032][ 96]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.02.27-08.25.50:034][ 96]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.02.27-08.25.50:041][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.02.27-08.25.50:068][ 97]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.02.27-08.27.30:923][542]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2004.633789
+[2025.02.27-08.27.31:923][545]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.27-08.27.31:923][545]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2005.300537, Update Interval: 356.740631
+[2025.02.27-08.29.06:369][ 34]LogContentBrowser: Deferred new asset folder creation: 新建文件夹
+[2025.02.27-08.29.06:377][ 34]LogContentBrowser: Creating deferred item: 新建文件夹
+[2025.02.27-08.29.06:385][ 35]LogContentBrowser: Renaming the item being created (Deferred Item: 新建文件夹).
+[2025.02.27-08.29.20:530][883]LogContentBrowser: Attempting asset rename: 新建文件夹 -> Equipment_System
+[2025.02.27-08.29.20:530][883]LogContentBrowser: End creating deferred item 新建文件夹
+[2025.02.27-08.29.37:528][878]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2025.02.27-08.29.37:534][878]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2025.02.27-08.29.37:576][880]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2025.02.27-08.30.19:411][390]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> S_Weapons
+[2025.02.27-08.30.19:478][390]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2025.02.27-08.30.21:538][513]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Equipment_System/S_Weapons.S_Weapons
+[2025.02.27-08.30.39:670][567]LogSlate: Took 0.007339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2025.02.27-08.30.42:269][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.30.42:301][719]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/S_Weapons] ([1] browsable assets)...
+[2025.02.27-08.30.42:301][719]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/S_Weapons]
+[2025.02.27-08.30.42:301][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/S_Weapons" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/S_Weapons.uasset" SILENT=true
+[2025.02.27-08.30.42:302][719]LogSavePackage: Moving output files for package: /Game/Equipment_System/S_Weapons
+[2025.02.27-08.30.42:302][719]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/S_WeaponsA6F2CBFB4167130DB7FF8EB03B101DE9.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/S_Weapons.uasset'
+[2025.02.27-08.30.42:312][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 43.231 ms (total: 783.678 ms)
+[2025.02.27-08.30.42:342][719]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.30.42:342][719]LogContentValidation: Enabled validators:
+[2025.02.27-08.30.42:342][719]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.30.42:342][719]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.30.42:342][719]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.30.42:342][719]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.30.42:342][719]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.30.42:342][719]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.30.42:342][719]AssetCheck: /Game/Equipment_System/S_Weapons 正在验证资产
+[2025.02.27-08.34.15:166][143]LogSlate: Window 'S_Weapons' being destroyed
+[2025.02.27-08.34.21:418][517]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2415.130371
+[2025.02.27-08.34.21:735][536]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.27-08.34.21:735][536]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2415.430420, Update Interval: 344.955597
+[2025.02.27-08.34.26:177][796]LogContentBrowser: Deferred new asset file creation: NewUserDefinedEnum
+[2025.02.27-08.34.26:183][796]LogContentBrowser: Creating deferred item: NewUserDefinedEnum
+[2025.02.27-08.34.26:192][797]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedEnum).
+[2025.02.27-08.34.54:368][487]LogContentBrowser: Attempting asset rename: NewUserDefinedEnum -> E_Weapon_Type
+[2025.02.27-08.34.54:371][487]LogContentBrowser: End creating deferred item NewUserDefinedEnum
+[2025.02.27-08.34.54:415][489]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/Equipment_System/E_Weapon_Type.E_Weapon_Type
+[2025.02.27-08.36.55:927][757]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.36.55:957][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/E_Weapon_Type] ([1] browsable assets)...
+[2025.02.27-08.36.55:957][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/E_Weapon_Type]
+[2025.02.27-08.36.55:957][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/E_Weapon_Type" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/E_Weapon_Type.uasset" SILENT=true
+[2025.02.27-08.36.55:959][757]LogSavePackage: Moving output files for package: /Game/Equipment_System/E_Weapon_Type
+[2025.02.27-08.36.55:959][757]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/E_Weapon_Type0D9AFFB0499F705061C2D1B32CE60F5E.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/E_Weapon_Type.uasset'
+[2025.02.27-08.36.55:966][757]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.591 ms (total: 823.269 ms)
+[2025.02.27-08.36.55:998][757]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.36.55:998][757]LogContentValidation: Enabled validators:
+[2025.02.27-08.36.55:998][757]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.36.55:998][757]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.36.55:998][757]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.36.55:998][757]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.36.55:998][757]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.36.55:998][757]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.36.55:998][757]AssetCheck: /Game/Equipment_System/E_Weapon_Type 正在验证资产
+[2025.02.27-08.36.57:728][856]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.02.27-08.36.58:337][856]LogSlate: Window '保存内容' being destroyed
+[2025.02.27-08.36.58:346][856]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.36.58:374][856]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/S_Weapons] ([1] browsable assets)...
+[2025.02.27-08.36.58:374][856]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/S_Weapons]
+[2025.02.27-08.36.58:374][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/S_Weapons" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/S_Weapons.uasset" SILENT=true
+[2025.02.27-08.36.58:393][856]LogSavePackage: Moving output files for package: /Game/Equipment_System/S_Weapons
+[2025.02.27-08.36.58:393][856]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/S_WeaponsD7F5356143181C4EE0857BB1AC6B7126.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/S_Weapons.uasset'
+[2025.02.27-08.36.58:402][856]LogFileHelpers: InternalPromptForCheckoutAndSave took 55.425 ms (total: 878.695 ms)
+[2025.02.27-08.36.58:428][856]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.36.58:428][856]LogContentValidation: Enabled validators:
+[2025.02.27-08.36.58:428][856]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.36.58:428][856]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.36.58:428][856]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.36.58:428][856]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.36.58:428][856]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.36.58:428][856]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.36.58:428][856]AssetCheck: /Game/Equipment_System/S_Weapons 正在验证资产
+[2025.02.27-08.37.32:208][879]LogContentBrowser: Attempting asset rename: E_Weapon_Type -> E_Weapon_Type2
+[2025.02.27-08.37.32:326][879]LogMetaData: Removing '/Game/Equipment_System/E_Weapon_Type2.E_Weapon_Type2' ref from Metadata '/Game/Equipment_System/E_Weapon_Type.PackageMetaData'
+[2025.02.27-08.37.32:338][879]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.37.32:338][879]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/E_Weapon_Type2] ([1] browsable assets)...
+[2025.02.27-08.37.32:338][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/E_Weapon_Type2]
+[2025.02.27-08.37.32:338][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/E_Weapon_Type2" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/E_Weapon_Type2.uasset" SILENT=true
+[2025.02.27-08.37.32:339][879]LogSavePackage: Moving output files for package: /Game/Equipment_System/E_Weapon_Type2
+[2025.02.27-08.37.32:339][879]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/E_Weapon_Type2780351B045547B96A2FBD3AD94015C9E.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/E_Weapon_Type2.uasset'
+[2025.02.27-08.37.32:340][879]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.146 ms (total: 880.841 ms)
+[2025.02.27-08.37.32:378][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.02.27-08.37.32:400][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.02.27-08.37.32:420][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.02.27-08.37.32:465][879]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.37.32:465][879]LogContentValidation: Enabled validators:
+[2025.02.27-08.37.32:465][879]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.37.32:465][879]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.37.32:465][879]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.37.32:465][879]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.37.32:465][879]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.37.32:465][879]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.37.32:465][879]AssetCheck: /Game/Equipment_System/E_Weapon_Type2 正在验证资产
+[2025.02.27-08.37.41:688][425]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.37.41:720][425]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/S_Weapons] ([1] browsable assets)...
+[2025.02.27-08.37.41:720][425]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/S_Weapons]
+[2025.02.27-08.37.41:720][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/S_Weapons" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/S_Weapons.uasset" SILENT=true
+[2025.02.27-08.37.41:722][425]LogSavePackage: Moving output files for package: /Game/Equipment_System/S_Weapons
+[2025.02.27-08.37.41:722][425]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/S_Weapons490A678B45EECA14E6F4D59CDB8231E2.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/S_Weapons.uasset'
+[2025.02.27-08.37.41:728][425]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.422 ms (total: 920.263 ms)
+[2025.02.27-08.37.41:762][425]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.37.41:762][425]LogContentValidation: Enabled validators:
+[2025.02.27-08.37.41:762][425]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.37.41:762][425]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.37.41:762][425]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.37.41:762][425]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.37.41:762][425]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.37.41:762][425]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.37.41:762][425]AssetCheck: /Game/Equipment_System/S_Weapons 正在验证资产
+[2025.02.27-08.38.09:630][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.38.09:658][ 97]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/S_Weapons] ([1] browsable assets)...
+[2025.02.27-08.38.09:658][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/S_Weapons]
+[2025.02.27-08.38.09:658][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/S_Weapons" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/S_Weapons.uasset" SILENT=true
+[2025.02.27-08.38.09:659][ 97]LogSavePackage: Moving output files for package: /Game/Equipment_System/S_Weapons
+[2025.02.27-08.38.09:659][ 97]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/S_Weapons1037EFF44314174CB98BE98C26407115.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/S_Weapons.uasset'
+[2025.02.27-08.38.09:665][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 34.822 ms (total: 955.086 ms)
+[2025.02.27-08.38.09:699][ 97]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.38.09:699][ 97]LogContentValidation: Enabled validators:
+[2025.02.27-08.38.09:699][ 97]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.38.09:699][ 97]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.38.09:699][ 97]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.38.09:699][ 97]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.38.09:699][ 97]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.38.09:699][ 97]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.38.09:699][ 97]AssetCheck: /Game/Equipment_System/S_Weapons 正在验证资产
+[2025.02.27-08.38.39:229][867]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2025.02.27-08.38.44:203][150]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-08.38.44:204][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.38.44:331][150]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-08.38.44:331][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.38.44:337][150]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-08.38.44:337][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.38.44:375][150]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-08.38.44:375][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.38.44:424][150]LogSkinnedMeshComp: Warning: GetSocketInfoByName(Hand_R_Sword): No SkeletalMesh for Component(DebugSkelMeshComponent_0) Actor(AnimationEditorPreviewActor /Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0)
+[2025.02.27-08.38.44:447][150]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-08.38.44:447][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.38.44:493][150]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-08.38.44:493][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.38.44:560][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.02.27-08.39.12:918][833]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2025.02.27-08.39.12:925][833]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2025.02.27-08.39.12:933][834]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2025.02.27-08.39.20:398][282]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> S_Slots
+[2025.02.27-08.39.20:432][282]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2025.02.27-08.39.21:795][362]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.39.21:825][362]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/S_Slots] ([1] browsable assets)...
+[2025.02.27-08.39.21:825][362]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/S_Slots]
+[2025.02.27-08.39.21:825][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/S_Slots" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/S_Slots.uasset" SILENT=true
+[2025.02.27-08.39.21:826][362]LogSavePackage: Moving output files for package: /Game/Equipment_System/S_Slots
+[2025.02.27-08.39.21:826][362]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/S_Slots0C8F5CCC4386991A48016CBAFBF71D40.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/S_Slots.uasset'
+[2025.02.27-08.39.21:835][362]LogFileHelpers: InternalPromptForCheckoutAndSave took 38.912 ms (total: 993.998 ms)
+[2025.02.27-08.39.21:865][362]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.39.21:865][362]LogContentValidation: Enabled validators:
+[2025.02.27-08.39.21:865][362]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.39.21:865][362]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.39.21:865][362]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.39.21:865][362]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.39.21:865][362]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.39.21:865][362]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.39.21:865][362]AssetCheck: /Game/Equipment_System/S_Slots 正在验证资产
+[2025.02.27-08.39.25:079][553]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.02.27-08.39.40:717][487]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Equipment_System/S_Slots.S_Slots
+[2025.02.27-08.40.43:690][242]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.40.43:719][242]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/S_Slots] ([1] browsable assets)...
+[2025.02.27-08.40.43:719][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/S_Slots]
+[2025.02.27-08.40.43:719][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/S_Slots" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/S_Slots.uasset" SILENT=true
+[2025.02.27-08.40.43:724][242]LogSavePackage: Moving output files for package: /Game/Equipment_System/S_Slots
+[2025.02.27-08.40.43:724][242]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/S_Slots2B54711D447D7ABD72D76B821DA296FD.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/S_Slots.uasset'
+[2025.02.27-08.40.43:731][242]LogFileHelpers: InternalPromptForCheckoutAndSave took 41.180 ms (total: 1.03 sec)
+[2025.02.27-08.40.43:761][242]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.40.43:761][242]LogContentValidation: Enabled validators:
+[2025.02.27-08.40.43:761][242]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.40.43:761][242]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.40.43:761][242]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.40.43:761][242]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.40.43:761][242]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.40.43:761][242]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.40.43:762][242]AssetCheck: /Game/Equipment_System/S_Slots 正在验证资产
+[2025.02.27-08.40.52:536][768]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2806.236572
+[2025.02.27-08.40.53:402][820]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.27-08.40.53:402][820]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2807.086670, Update Interval: 333.514832
+[2025.02.27-08.45.59:537][673]LogSlate: Window '选取行结构' being destroyed
+[2025.02.27-08.45.59:572][673]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2025.02.27-08.45.59:576][673]LogContentBrowser: Creating deferred item: NewDataTable
+[2025.02.27-08.45.59:580][673]LogAutomationController: Ignoring very large delta of 13.56 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.27-08.45.59:586][674]LogContentBrowser: Renaming the item being created (Deferred Item: NewDataTable).
+[2025.02.27-08.46.10:864][351]LogContentBrowser: Attempting asset rename: NewDataTable -> DB_Weapons
+[2025.02.27-08.46.10:865][351]LogContentBrowser: End creating deferred item NewDataTable
+[2025.02.27-08.46.10:907][353]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Equipment_System/DB_Weapons.DB_Weapons
+[2025.02.27-08.47.19:380][447]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3193.076416
+[2025.02.27-08.47.19:680][465]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.27-08.47.19:680][465]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3193.359863, Update Interval: 300.598785
+[2025.02.27-08.48.30:339][697]LogSlate: Window 'DB_Weapons' being destroyed
+[2025.02.27-08.49.53:194][663]LogSlate: Took 0.005396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.02.27-08.50.05:937][424]LogStreaming: Display: FlushAsyncLoading(589): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.27-08.50.35:059][164]ImportText (/Game/Equipment_System/S_Weapons.S_Weapons): Missing opening parenthesis: HeavySword
+[2025.02.27-08.50.54:894][343]LogStreaming: Display: FlushAsyncLoading(590): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.27-08.50.58:340][548]LogStreaming: Display: FlushAsyncLoading(591): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.27-08.50.59:936][641]LogStreaming: Display: FlushAsyncLoading(592): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.27-08.52.06:120][607]LogStreaming: Display: FlushAsyncLoading(593): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.27-08.52.16:201][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.52.16:231][204]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/DB_Weapons] ([1] browsable assets)...
+[2025.02.27-08.52.16:231][204]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/DB_Weapons]
+[2025.02.27-08.52.16:231][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/DB_Weapons" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/DB_Weapons.uasset" SILENT=true
+[2025.02.27-08.52.16:241][204]LogSavePackage: Moving output files for package: /Game/Equipment_System/DB_Weapons
+[2025.02.27-08.52.16:241][204]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/DB_Weapons032D2A094C64DC5DD3B5DC89A9BEAB68.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/DB_Weapons.uasset'
+[2025.02.27-08.52.16:248][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.787 ms (total: 1.08 sec)
+[2025.02.27-08.52.16:280][204]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.52.16:280][204]LogContentValidation: Enabled validators:
+[2025.02.27-08.52.16:280][204]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.52.16:280][204]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.52.16:280][204]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.52.16:280][204]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.52.16:280][204]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.52.16:280][204]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.52.16:280][204]AssetCheck: /Game/Equipment_System/DB_Weapons 正在验证资产
+[2025.02.27-08.52.19:609][404]LogDebuggerCommands: Repeating last play command: 新建编辑器窗口（PIE）
+[2025.02.27-08.52.19:632][404]LogContentBundle: [ThirdPersonMap(独立)] Generating Streaming for 0 Content Bundles.
+[2025.02.27-08.52.19:632][404]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.02.27-08.52.19:633][404]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.682 ms (total: 38.472 ms)
+[2025.02.27-08.52.19:637][404]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2025.02.27-08.52.19:696][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.02.27-08.52.19:703][404]LogPlayLevel: PlayLevel: Blueprint regeneration took 67 ms (1 blueprints)
+[2025.02.27-08.52.19:703][404]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-08.52.19:706][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003218s)
+[2025.02.27-08.52.19:706][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003249s)
+[2025.02.27-08.52.19:723][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.02.27-08.52.19:724][404]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.02.27-08.52.19:726][404]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.27-08.52.19:726][404]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.27-08.52.19:726][404]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.27-08.52.19:726][404]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.27-08.52.19:727][404]LogWorldPartition: Display: WorldPartition initialize took 1.080 ms (total: 373.231 ms)
+[2025.02.27-08.52.19:727][404]LogPlayLevel: PIE: World Init took: (0.002765s)
+[2025.02.27-08.52.19:728][404]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.02.27-08.52.19:728][404]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.27-08.52.19:728][404]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.27-08.52.19:728][404]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.27-08.52.19:728][404]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.27-08.52.19:728][404]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.27-08.52.19:728][404]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.27-08.52.19:728][404]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.27-08.52.19:728][404]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.27-08.52.19:728][404]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.27-08.52.19:728][404]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.27-08.52.19:728][404]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.27-08.52.19:730][404]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.27-08.52.19:743][404]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2025.02.27-08.52.19:743][404]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.27-08.52.19:744][404]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.27-08.52.19:744][404]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.27-08.52.19:744][404]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.02.27-08.52.19:744][404]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.02.27-08.52.19:747][404]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.02.27-08.52.19:747][404]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.02.27-08.52.19:747][404]LogInit: FAudioDevice initialized with ID 15.
+[2025.02.27-08.52.19:747][404]LogAudio: Display: Audio Device (ID: 15) registered with world 'ThirdPersonMap'.
+[2025.02.27-08.52.19:747][404]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.02.27-08.52.19:773][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-08.52.19:773][404]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.02.27-08.52.19:780][404]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.02.27-16.52.19
+[2025.02.27-08.52.19:782][404]LogWorld: Bringing up level for play took: 0.008565
+[2025.02.27-08.52.19:784][404]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.02.27-08.52.19:793][404]PIE: 登陆的服务器
+[2025.02.27-08.52.19:793][404]PIE: PIE总开始时间：0.162秒。
+[2025.02.27-08.52.53:076][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-08.52.53:076][394]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-08.52.53:077][394]LogSlate: Window 'RPG_Gorka 预览 [NetMode: Standalone 0]  （64-bit/PC D3D SM6）' being destroyed
+[2025.02.27-08.52.53:084][394]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-08.52.53:085][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.52.53:085][394]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.02.27-08.52.53:087][394]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.27-08.52.53:092][394]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.52.53:111][394]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.02.27-08.52.53:111][394]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.02.27-08.52.53:113][394]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.02.27-08.52.53:119][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.02.27-08.52.53:148][395]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.02.27-08.53.15:793][561]LogSlate: Window '选取父类' being destroyed
+[2025.02.27-08.53.15:817][561]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.02.27-08.53.15:822][561]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.02.27-08.53.15:833][561]LogAutomationController: Ignoring very large delta of 19.79 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.27-08.53.15:833][561]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3549.518799
+[2025.02.27-08.53.15:841][562]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.02.27-08.53.18:636][729]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.27-08.53.18:636][729]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3552.303467, Update Interval: 347.535645
+[2025.02.27-08.53.26:064][175]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Weanpon
+[2025.02.27-08.53.26:079][175]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.02.27-08.53.29:239][363]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Equipment_System/BP_Weanpon.BP_Weanpon
+[2025.02.27-08.53.29:239][363]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.02.27-08.53.51:418][660]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.02.27-08.54.18:068][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.02.27-08.54.24:781][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.02.27-08.54.25:496][682]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.54.25:529][682]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BP_Weanpon] ([2] browsable assets)...
+[2025.02.27-08.54.25:529][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BP_Weanpon]
+[2025.02.27-08.54.25:529][682]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BP_Weanpon" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BP_Weanpon.uasset" SILENT=true
+[2025.02.27-08.54.25:532][682]LogSavePackage: Moving output files for package: /Game/Equipment_System/BP_Weanpon
+[2025.02.27-08.54.25:532][682]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BP_Weanpon7B6C626643E14B96BEE1ED83E4773150.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BP_Weanpon.uasset'
+[2025.02.27-08.54.25:542][682]LogFileHelpers: InternalPromptForCheckoutAndSave took 45.481 ms (total: 1.12 sec)
+[2025.02.27-08.54.25:567][682]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.54.25:568][682]LogContentValidation: Enabled validators:
+[2025.02.27-08.54.25:568][682]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.54.25:568][682]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.54.25:568][682]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.54.25:568][682]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.54.25:568][682]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.54.25:568][682]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.54.25:568][682]AssetCheck: /Game/Equipment_System/BP_Weanpon 正在验证资产
+[2025.02.27-08.54.59:797][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.02.27-08.55.00:663][778]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.55.00:701][778]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BP_Weanpon] ([2] browsable assets)...
+[2025.02.27-08.55.00:701][778]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BP_Weanpon]
+[2025.02.27-08.55.00:701][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BP_Weanpon" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BP_Weanpon.uasset" SILENT=true
+[2025.02.27-08.55.00:722][778]LogSavePackage: Moving output files for package: /Game/Equipment_System/BP_Weanpon
+[2025.02.27-08.55.00:722][778]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BP_Weanpon73D79BCD452AFF5E7DE97E81B1B27B82.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BP_Weanpon.uasset'
+[2025.02.27-08.55.00:729][778]LogFileHelpers: InternalPromptForCheckoutAndSave took 66.435 ms (total: 1.19 sec)
+[2025.02.27-08.55.00:763][778]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.55.00:763][778]LogContentValidation: Enabled validators:
+[2025.02.27-08.55.00:763][778]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.55.00:763][778]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.55.00:763][778]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.55.00:763][778]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.55.00:763][778]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.55.00:763][778]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.55.00:763][778]AssetCheck: /Game/Equipment_System/BP_Weanpon 正在验证资产
+[2025.02.27-08.55.43:065][311]LogDerivedDataCache: E:/Cache/UE5.3: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.02.27-08.56.33:221][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.02.27-08.56.33:223][302]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.023
+[2025.02.27-08.56.33:225][302]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BP_Weanpon] ([2] browsable assets)...
+[2025.02.27-08.56.33:225][302]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BP_Weanpon]
+[2025.02.27-08.56.33:225][302]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BP_Weanpon" FILE="../../../../../Project/Git/RPG_Gorka_Git/Saved/Autosaves/Game/Equipment_System/BP_Weanpon_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.02.27-08.56.33:227][302]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Equipment_System/BP_Weanpon_Auto1
+[2025.02.27-08.56.33:227][302]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BP_Weanpon_Auto1A5FBD10E47AD793B60D337BA420297D7.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Saved/Autosaves/Game/Equipment_System/BP_Weanpon_Auto1.uasset'
+[2025.02.27-08.56.33:228][302]LogFileHelpers: Auto-saving content packages took 0.003
+[2025.02.27-08.58.16:187][435]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.58.16:218][435]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BP_Weanpon] ([2] browsable assets)...
+[2025.02.27-08.58.16:218][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BP_Weanpon]
+[2025.02.27-08.58.16:218][435]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BP_Weanpon" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BP_Weanpon.uasset" SILENT=true
+[2025.02.27-08.58.16:222][435]LogSavePackage: Moving output files for package: /Game/Equipment_System/BP_Weanpon
+[2025.02.27-08.58.16:222][435]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BP_WeanponA114D0C149B23B6A1A387299459F4BA5.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BP_Weanpon.uasset'
+[2025.02.27-08.58.16:229][435]LogFileHelpers: InternalPromptForCheckoutAndSave took 42.272 ms (total: 1.23 sec)
+[2025.02.27-08.58.16:260][435]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.58.16:260][435]LogContentValidation: Enabled validators:
+[2025.02.27-08.58.16:260][435]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.58.16:260][435]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.58.16:260][435]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.58.16:260][435]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.58.16:260][435]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.58.16:260][435]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.58.16:260][435]AssetCheck: /Game/Equipment_System/BP_Weanpon 正在验证资产
+[2025.02.27-08.58.17:297][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.02.27-08.58.18:021][534]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.58.18:054][534]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BP_Weanpon] ([2] browsable assets)...
+[2025.02.27-08.58.18:054][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BP_Weanpon]
+[2025.02.27-08.58.18:054][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BP_Weanpon" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BP_Weanpon.uasset" SILENT=true
+[2025.02.27-08.58.18:059][534]LogSavePackage: Moving output files for package: /Game/Equipment_System/BP_Weanpon
+[2025.02.27-08.58.18:059][534]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BP_WeanponCC2834D942EAFD0397BF41BB255EAEE2.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BP_Weanpon.uasset'
+[2025.02.27-08.58.18:066][534]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.729 ms (total: 1.28 sec)
+[2025.02.27-08.58.18:102][534]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.58.18:102][534]LogContentValidation: Enabled validators:
+[2025.02.27-08.58.18:102][534]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.58.18:102][534]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.58.18:102][534]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.58.18:102][534]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.58.18:102][534]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.58.18:102][534]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.58.18:102][534]AssetCheck: /Game/Equipment_System/BP_Weanpon 正在验证资产
+[2025.02.27-08.58.21:657][744]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Equipment_System/BP_Weanpon.BP_Weanpon_C
+[2025.02.27-08.58.21:657][744]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Equipment_System/BP_Weanpon.BP_Weanpon_C
+[2025.02.27-08.58.21:659][744]LogActorFactory: Actor Factory spawned Blueprint /Game/Equipment_System/BP_Weanpon.BP_Weanpon as actor: BP_Weanpon_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Weanpon_C_0
+[2025.02.27-08.58.21:659][744]LogActorFactory: Actor Factory spawned Blueprint /Game/Equipment_System/BP_Weanpon.BP_Weanpon as actor: BP_Weanpon_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Weanpon_C_0
+[2025.02.27-08.58.22:722][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.02.27-08.58.22:724][804]LogEditorActor: Deleted 0 Actors (0.022 secs)
+[2025.02.27-08.58.22:729][804]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Equipment_System/BP_Weanpon.BP_Weanpon_C
+[2025.02.27-08.58.22:729][804]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Equipment_System/BP_Weanpon.BP_Weanpon_C
+[2025.02.27-08.58.22:733][804]LogActorFactory: Actor Factory spawned Blueprint /Game/Equipment_System/BP_Weanpon.BP_Weanpon as actor: BP_Weanpon_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Weanpon_C_UAID_D4939010D7B8675002_1460152104
+[2025.02.27-08.58.22:734][804]LogActorFactory: Actor Factory spawned Blueprint /Game/Equipment_System/BP_Weanpon.BP_Weanpon as actor: BP_Weanpon_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Weanpon_C_UAID_D4939010D7B8675002_1460152104
+[2025.02.27-08.58.27:793][104]Cmd: DELETE
+[2025.02.27-08.58.27:793][104]Cmd: ACTOR DELETE
+[2025.02.27-08.58.27:815][104]LogEditorActor: Deleted Actor: BP_Weanpon_C
+[2025.02.27-08.58.27:833][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.02.27-08.58.27:836][104]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2025.02.27-08.58.36:746][637]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Equipment_System/BP_Weanpon.BP_Weanpon_C
+[2025.02.27-08.58.36:746][637]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Equipment_System/BP_Weanpon.BP_Weanpon_C
+[2025.02.27-08.58.36:748][637]LogActorFactory: Actor Factory spawned Blueprint /Game/Equipment_System/BP_Weanpon.BP_Weanpon as actor: BP_Weanpon_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Weanpon_C_1
+[2025.02.27-08.58.36:748][637]LogActorFactory: Actor Factory spawned Blueprint /Game/Equipment_System/BP_Weanpon.BP_Weanpon as actor: BP_Weanpon_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Weanpon_C_1
+[2025.02.27-08.58.37:632][688]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2025.02.27-08.58.37:633][688]LogEditorActor: Deleted 0 Actors (0.019 secs)
+[2025.02.27-08.58.37:638][688]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Equipment_System/BP_Weanpon.BP_Weanpon_C
+[2025.02.27-08.58.37:638][688]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Equipment_System/BP_Weanpon.BP_Weanpon_C
+[2025.02.27-08.58.37:640][688]LogActorFactory: Actor Factory spawned Blueprint /Game/Equipment_System/BP_Weanpon.BP_Weanpon as actor: BP_Weanpon_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Weanpon_C_UAID_D4939010D7B8675002_1475061105
+[2025.02.27-08.58.37:641][688]LogActorFactory: Actor Factory spawned Blueprint /Game/Equipment_System/BP_Weanpon.BP_Weanpon as actor: BP_Weanpon_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_Weanpon_C_UAID_D4939010D7B8675002_1475061105
+[2025.02.27-08.58.53:593][639]LogDebuggerCommands: Repeating last play command: 新建编辑器窗口（PIE）
+[2025.02.27-08.58.53:600][639]LogContentBundle: [ThirdPersonMap(独立)] Generating Streaming for 0 Content Bundles.
+[2025.02.27-08.58.53:600][639]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.02.27-08.58.53:610][639]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 10.551 ms (total: 49.023 ms)
+[2025.02.27-08.58.53:615][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.27-08.58.53:615][639]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-08.58.53:619][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003301s)
+[2025.02.27-08.58.53:619][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003329s)
+[2025.02.27-08.58.53:637][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.02.27-08.58.53:639][639]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.02.27-08.58.53:640][639]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.27-08.58.53:640][639]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.27-08.58.53:640][639]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.27-08.58.53:640][639]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.27-08.58.53:641][639]LogWorldPartition: Display: WorldPartition initialize took 1.080 ms (total: 374.312 ms)
+[2025.02.27-08.58.53:641][639]LogPlayLevel: PIE: World Init took: (0.002552s)
+[2025.02.27-08.58.53:642][639]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.02.27-08.58.53:642][639]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.27-08.58.53:642][639]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.27-08.58.53:642][639]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.27-08.58.53:642][639]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.27-08.58.53:642][639]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.27-08.58.53:642][639]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.27-08.58.53:642][639]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.27-08.58.53:642][639]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.27-08.58.53:642][639]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.27-08.58.53:642][639]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.27-08.58.53:642][639]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.27-08.58.53:645][639]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.27-08.58.53:657][639]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2025.02.27-08.58.53:657][639]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.27-08.58.53:657][639]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.27-08.58.53:657][639]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.27-08.58.53:658][639]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.02.27-08.58.53:658][639]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.02.27-08.58.53:660][639]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.02.27-08.58.53:660][639]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.02.27-08.58.53:660][639]LogInit: FAudioDevice initialized with ID 16.
+[2025.02.27-08.58.53:660][639]LogAudio: Display: Audio Device (ID: 16) registered with world 'ThirdPersonMap'.
+[2025.02.27-08.58.53:660][639]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.02.27-08.58.53:693][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-08.58.53:693][639]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.02.27-08.58.53:700][639]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.02.27-16.58.53
+[2025.02.27-08.58.53:701][639]LogWorld: Bringing up level for play took: 0.007922
+[2025.02.27-08.58.53:703][639]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2025.02.27-08.58.53:714][639]PIE: 登陆的服务器
+[2025.02.27-08.58.53:716][639]PIE: PIE总开始时间：0.116秒。
+[2025.02.27-08.59.07:505][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-08.59.07:505][461]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-08.59.07:506][461]LogSlate: Window 'RPG_Gorka 预览 [NetMode: Standalone 0]  （64-bit/PC D3D SM6）' being destroyed
+[2025.02.27-08.59.07:512][461]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-08.59.07:512][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.59.07:513][461]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.02.27-08.59.07:517][461]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.27-08.59.07:521][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.59.07:541][461]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.02.27-08.59.07:541][461]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.02.27-08.59.07:543][461]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.02.27-08.59.07:555][461]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.02.27-08.59.07:592][462]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2025.02.27-08.59.15:957][963]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-08.59.16:006][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.02.27-08.59.16:025][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.02.27-08.59.16:043][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.02.27-08.59.16:045][963]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/FA/HDAOKBV8UUB9D5YCSOTBEZ
+[2025.02.27-08.59.16:045][963]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/HDAOKBV8UUB9D5YCSOTBEZ23315DF740304C7B769E8DAD0E534EF2.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/FA/HDAOKBV8UUB9D5YCSOTBEZ.uasset'
+[2025.02.27-08.59.16:058][963]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.247 ms (total: 1.38 sec)
+[2025.02.27-08.59.16:092][963]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-08.59.16:092][963]LogContentValidation: Enabled validators:
+[2025.02.27-08.59.16:092][963]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-08.59.16:092][963]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-08.59.16:092][963]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-08.59.16:092][963]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-08.59.16:092][963]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-08.59.16:092][963]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-08.59.16:092][963]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap 正在验证资产
+[2025.02.27-08.59.19:639][164]LogDebuggerCommands: Repeating last play command: 新建编辑器窗口（PIE）
+[2025.02.27-08.59.19:645][164]LogContentBundle: [ThirdPersonMap(独立)] Generating Streaming for 0 Content Bundles.
+[2025.02.27-08.59.19:645][164]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.02.27-08.59.19:646][164]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.618 ms (total: 50.641 ms)
+[2025.02.27-08.59.19:648][164]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.27-08.59.19:648][164]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-08.59.19:651][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003321s)
+[2025.02.27-08.59.19:651][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003351s)
+[2025.02.27-08.59.19:679][164]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.02.27-08.59.19:680][164]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.02.27-08.59.19:682][164]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.27-08.59.19:682][164]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.27-08.59.19:682][164]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.27-08.59.19:682][164]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.27-08.59.19:683][164]LogWorldPartition: Display: WorldPartition initialize took 1.183 ms (total: 375.495 ms)
+[2025.02.27-08.59.19:683][164]LogPlayLevel: PIE: World Init took: (0.002692s)
+[2025.02.27-08.59.19:683][164]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.02.27-08.59.19:683][164]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.27-08.59.19:683][164]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.27-08.59.19:683][164]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.27-08.59.19:684][164]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.27-08.59.19:684][164]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.27-08.59.19:684][164]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.27-08.59.19:684][164]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.27-08.59.19:684][164]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.27-08.59.19:684][164]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.27-08.59.19:684][164]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.27-08.59.19:684][164]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.27-08.59.19:686][164]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.27-08.59.19:697][164]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2025.02.27-08.59.19:697][164]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.27-08.59.19:697][164]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.27-08.59.19:697][164]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.27-08.59.19:697][164]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.02.27-08.59.19:697][164]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.02.27-08.59.19:700][164]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.02.27-08.59.19:700][164]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.02.27-08.59.19:700][164]LogInit: FAudioDevice initialized with ID 17.
+[2025.02.27-08.59.19:700][164]LogAudio: Display: Audio Device (ID: 17) registered with world 'ThirdPersonMap'.
+[2025.02.27-08.59.19:700][164]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.02.27-08.59.19:727][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-08.59.19:727][164]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.02.27-08.59.19:734][164]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.02.27-16.59.19
+[2025.02.27-08.59.19:736][164]LogWorld: Bringing up level for play took: 0.007991
+[2025.02.27-08.59.19:738][164]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2025.02.27-08.59.19:746][164]PIE: 登陆的服务器
+[2025.02.27-08.59.19:748][164]PIE: PIE总开始时间：0.104秒。
+[2025.02.27-08.59.32:136][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-08.59.32:136][902]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-08.59.32:136][902]LogSlate: Window 'RPG_Gorka 预览 [NetMode: Standalone 0]  （64-bit/PC D3D SM6）' being destroyed
+[2025.02.27-08.59.32:145][902]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-08.59.32:146][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.59.32:146][902]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.02.27-08.59.32:150][902]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.27-08.59.32:154][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-08.59.32:171][902]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.02.27-08.59.32:172][902]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.02.27-08.59.32:174][902]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.02.27-08.59.32:182][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.02.27-08.59.32:239][903]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2025.02.27-08.59.48:535][874]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3942.222900
+[2025.02.27-08.59.48:852][893]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.27-08.59.48:852][894]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3942.523193, Update Interval: 335.419159
+[2025.02.27-09.00.23:930][786]LogSlate: Window '选取父类' being destroyed
+[2025.02.27-09.00.23:951][786]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.02.27-09.00.23:957][786]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.02.27-09.00.23:959][786]LogAutomationController: Ignoring very large delta of 3.38 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.27-09.00.23:966][787]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.02.27-09.00.44:644][ 28]LogContentBrowser: Attempting asset rename: NewBlueprint -> BPC_EquipmentSystem
+[2025.02.27-09.00.44:649][ 28]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.02.27-09.00.45:197][ 60]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Equipment_System/BPC_EquipmentSystem.BPC_EquipmentSystem
+[2025.02.27-09.00.45:198][ 60]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.02.27-09.05.58:491][301]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4312.191895
+[2025.02.27-09.05.58:825][321]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.27-09.05.58:826][321]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4312.509766, Update Interval: 326.820282
+[2025.02.27-09.06.13:245][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.02.27-09.06.14:551][253]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.06.14:583][253]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BPC_EquipmentSystem] ([2] browsable assets)...
+[2025.02.27-09.06.14:583][253]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BPC_EquipmentSystem]
+[2025.02.27-09.06.14:583][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BPC_EquipmentSystem" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset" SILENT=true
+[2025.02.27-09.06.14:604][253]LogSavePackage: Moving output files for package: /Game/Equipment_System/BPC_EquipmentSystem
+[2025.02.27-09.06.14:604][253]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BPC_EquipmentSystem2F4893864EAF41B7AE10FEA315882294.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset'
+[2025.02.27-09.06.14:615][253]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.954 ms (total: 1.44 sec)
+[2025.02.27-09.06.14:649][253]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.06.14:649][253]LogContentValidation: Enabled validators:
+[2025.02.27-09.06.14:649][253]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.06.14:649][253]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.06.14:649][253]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.06.14:649][253]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.06.14:649][253]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.06.14:649][253]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.06.14:649][253]AssetCheck: /Game/Equipment_System/BPC_EquipmentSystem 正在验证资产
+[2025.02.27-09.07.40:340][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2025.02.27-09.07.42:488][484]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.07.42:514][484]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BPC_EquipmentSystem] ([2] browsable assets)...
+[2025.02.27-09.07.42:514][484]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BPC_EquipmentSystem]
+[2025.02.27-09.07.42:514][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BPC_EquipmentSystem" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset" SILENT=true
+[2025.02.27-09.07.42:517][484]LogSavePackage: Moving output files for package: /Game/Equipment_System/BPC_EquipmentSystem
+[2025.02.27-09.07.42:517][484]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BPC_EquipmentSystem056AB86A411F5EB71981E38543407266.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset'
+[2025.02.27-09.07.42:524][484]LogFileHelpers: InternalPromptForCheckoutAndSave took 36.399 ms (total: 1.48 sec)
+[2025.02.27-09.07.42:555][484]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.07.42:555][484]LogContentValidation: Enabled validators:
+[2025.02.27-09.07.42:555][484]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.07.42:555][484]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.07.42:555][484]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.07.42:555][484]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.07.42:555][484]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.07.42:555][484]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.07.42:555][484]AssetCheck: /Game/Equipment_System/BPC_EquipmentSystem 正在验证资产
+[2025.02.27-09.08.12:137][235]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.02.27-09.08.12:166][235]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.02.27-09.08.12:183][236]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.02.27-09.08.29:541][278]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_PickUp
+[2025.02.27-09.08.29:542][278]LogContentBrowser: End creating deferred item NewInputAction
+[2025.02.27-09.08.56:738][909]LogContentBrowser: Attempting asset rename: IA_PickUp -> IA_Interact
+[2025.02.27-09.08.56:803][909]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.08.56:803][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Input/Actions/IA_Interact] ([1] browsable assets)...
+[2025.02.27-09.08.56:803][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Input/Actions/IA_Interact]
+[2025.02.27-09.08.56:803][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Input/Actions/IA_Interact" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/ThirdPerson/Input/Actions/IA_Interact.uasset" SILENT=true
+[2025.02.27-09.08.56:803][909]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Input/Actions/IA_Interact
+[2025.02.27-09.08.56:803][909]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/IA_Interact0B61029C4F31D0222D726EBF06BA8200.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/ThirdPerson/Input/Actions/IA_Interact.uasset'
+[2025.02.27-09.08.56:804][909]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.597 ms (total: 1.48 sec)
+[2025.02.27-09.08.56:839][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.02.27-09.08.56:858][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.02.27-09.08.56:877][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.02.27-09.08.56:917][909]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.08.56:917][909]LogContentValidation: Enabled validators:
+[2025.02.27-09.08.56:917][909]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.08.56:917][909]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.08.56:917][909]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.08.56:917][909]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.08.56:917][909]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.08.56:917][909]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.08.56:917][909]AssetCheck: /Game/ThirdPerson/Input/Actions/IA_Interact 正在验证资产
+[2025.02.27-09.08.59:956][ 87]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/ThirdPerson/Input/IMC_Default.IMC_Default
+[2025.02.27-09.09.43:996][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.02.27-09.09.43:999][278]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/FA/HDAOKBV8UUB9D5YCSOTBEZ_Auto2
+[2025.02.27-09.09.43:999][278]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/HDAOKBV8UUB9D5YCSOTBEZ_Auto2D18CC7E246A96A6D55BB078DEE19B762.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/FA/HDAOKBV8UUB9D5YCSOTBEZ_Auto2.uasset'
+[2025.02.27-09.09.44:000][278]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.042
+[2025.02.27-09.09.44:000][278]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.042
+[2025.02.27-09.09.55:639][976]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.09.55:674][976]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Input/IMC_Default] ([1] browsable assets)...
+[2025.02.27-09.09.55:674][976]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Input/IMC_Default]
+[2025.02.27-09.09.55:674][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Input/IMC_Default" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/ThirdPerson/Input/IMC_Default.uasset" SILENT=true
+[2025.02.27-09.09.55:676][976]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Input/IMC_Default
+[2025.02.27-09.09.55:676][976]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/IMC_Default90B1C98A4264B55EBBCC8C9651CD7B05.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/ThirdPerson/Input/IMC_Default.uasset'
+[2025.02.27-09.09.55:683][976]LogFileHelpers: InternalPromptForCheckoutAndSave took 43.645 ms (total: 1.52 sec)
+[2025.02.27-09.09.55:731][976]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.09.55:731][976]LogContentValidation: Enabled validators:
+[2025.02.27-09.09.55:732][976]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.09.55:732][976]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.09.55:732][976]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.09.55:732][976]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.09.55:732][976]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.09.55:732][976]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.09.55:732][976]AssetCheck: /Game/ThirdPerson/Input/IMC_Default 正在验证资产
+[2025.02.27-09.10.17:964][298]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.10.17:992][298]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Input/IMC_Default] ([1] browsable assets)...
+[2025.02.27-09.10.17:992][298]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Input/IMC_Default]
+[2025.02.27-09.10.17:992][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Input/IMC_Default" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/ThirdPerson/Input/IMC_Default.uasset" SILENT=true
+[2025.02.27-09.10.17:993][298]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Input/IMC_Default
+[2025.02.27-09.10.17:994][298]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/IMC_Default440042494380408E8D6348961CC1CE3C.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/ThirdPerson/Input/IMC_Default.uasset'
+[2025.02.27-09.10.18:000][298]LogFileHelpers: InternalPromptForCheckoutAndSave took 35.888 ms (total: 1.56 sec)
+[2025.02.27-09.10.18:032][298]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.10.18:032][298]LogContentValidation: Enabled validators:
+[2025.02.27-09.10.18:032][298]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.10.18:032][298]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.10.18:032][298]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.10.18:032][298]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.10.18:032][298]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.10.18:032][298]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.10.18:033][298]AssetCheck: /Game/ThirdPerson/Input/IMC_Default 正在验证资产
+[2025.02.27-09.11.15:214][671]LogBlueprint: Error: [AssetLog] E:\Project\Git\RPG_Gorka_Git\Content\Equipment_System\BPC_EquipmentSystem.uasset: [Compiler] “ Object Types ”引脚当前的值（ObjectTypeQuery1）无效：数组输入（如“Object Types”）必须连接有效的输入（尝试连接一个MakeArray节点）。
+[2025.02.27-09.11.15:233][671]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.02.27-09.11.15:698][697]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.11.15:731][697]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BPC_EquipmentSystem] ([2] browsable assets)...
+[2025.02.27-09.11.15:731][697]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BPC_EquipmentSystem]
+[2025.02.27-09.11.15:731][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BPC_EquipmentSystem" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset" SILENT=true
+[2025.02.27-09.11.15:735][697]LogSavePackage: Moving output files for package: /Game/Equipment_System/BPC_EquipmentSystem
+[2025.02.27-09.11.15:735][697]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BPC_EquipmentSystem05949AB44BA8C90827EFAF9385FDD615.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset'
+[2025.02.27-09.11.15:743][697]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.853 ms (total: 1.60 sec)
+[2025.02.27-09.11.15:771][697]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.11.15:772][697]LogContentValidation: Enabled validators:
+[2025.02.27-09.11.15:772][697]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.11.15:772][697]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.11.15:772][697]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.11.15:772][697]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.11.15:772][697]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.11.15:772][697]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.11.15:772][697]AssetCheck: /Game/Equipment_System/BPC_EquipmentSystem 正在验证资产
+[2025.02.27-09.11.58:199][ 76]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4671.850098
+[2025.02.27-09.11.59:199][ 79]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.27-09.11.59:199][ 79]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4672.516113, Update Interval: 347.738892
+[2025.02.27-09.13.45:262][288]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.13.45:292][288]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BPC_EquipmentSystem] ([2] browsable assets)...
+[2025.02.27-09.13.45:292][288]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BPC_EquipmentSystem]
+[2025.02.27-09.13.45:292][288]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BPC_EquipmentSystem" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset" SILENT=true
+[2025.02.27-09.13.45:296][288]LogSavePackage: Moving output files for package: /Game/Equipment_System/BPC_EquipmentSystem
+[2025.02.27-09.13.45:296][288]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BPC_EquipmentSystem66F0DF894E73CD89A4AAA39ED8F201D2.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset'
+[2025.02.27-09.13.45:303][288]LogFileHelpers: InternalPromptForCheckoutAndSave took 40.948 ms (total: 1.65 sec)
+[2025.02.27-09.13.45:332][288]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.13.45:333][288]LogContentValidation: Enabled validators:
+[2025.02.27-09.13.45:333][288]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.13.45:333][288]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.13.45:333][288]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.13.45:333][288]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.13.45:333][288]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.13.45:333][288]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.13.45:333][288]AssetCheck: /Game/Equipment_System/BPC_EquipmentSystem 正在验证资产
+[2025.02.27-09.16.45:155][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.02.27-09.16.45:930][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.16.45:959][ 14]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BPC_EquipmentSystem] ([2] browsable assets)...
+[2025.02.27-09.16.45:959][ 14]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BPC_EquipmentSystem]
+[2025.02.27-09.16.45:959][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BPC_EquipmentSystem" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset" SILENT=true
+[2025.02.27-09.16.45:967][ 14]LogSavePackage: Moving output files for package: /Game/Equipment_System/BPC_EquipmentSystem
+[2025.02.27-09.16.45:967][ 14]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BPC_EquipmentSystem5AF858ED48B8FC65897AA39854BC5CEF.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset'
+[2025.02.27-09.16.45:974][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.352 ms (total: 1.69 sec)
+[2025.02.27-09.16.46:007][ 14]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.16.46:007][ 14]LogContentValidation: Enabled validators:
+[2025.02.27-09.16.46:007][ 14]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.16.46:007][ 14]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.16.46:007][ 14]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.16.46:007][ 14]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.16.46:007][ 14]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.16.46:007][ 14]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.16.46:007][ 14]AssetCheck: /Game/Equipment_System/BPC_EquipmentSystem 正在验证资产
+[2025.02.27-09.17.06:206][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.02.27-09.17.06:953][264]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.17.06:977][264]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BPC_EquipmentSystem] ([2] browsable assets)...
+[2025.02.27-09.17.06:978][264]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BPC_EquipmentSystem]
+[2025.02.27-09.17.06:978][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BPC_EquipmentSystem" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset" SILENT=true
+[2025.02.27-09.17.06:984][264]LogSavePackage: Moving output files for package: /Game/Equipment_System/BPC_EquipmentSystem
+[2025.02.27-09.17.06:984][264]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BPC_EquipmentSystem1076CF124EF383226D2D869D47397118.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset'
+[2025.02.27-09.17.06:992][264]LogFileHelpers: InternalPromptForCheckoutAndSave took 39.265 ms (total: 1.73 sec)
+[2025.02.27-09.17.07:024][264]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.17.07:024][264]LogContentValidation: Enabled validators:
+[2025.02.27-09.17.07:024][264]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.17.07:024][264]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.17.07:024][264]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.17.07:024][264]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.17.07:024][264]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.17.07:024][264]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.17.07:024][264]AssetCheck: /Game/Equipment_System/BPC_EquipmentSystem 正在验证资产
+[2025.02.27-09.17.10:188][454]LogDebuggerCommands: Repeating last play command: 新建编辑器窗口（PIE）
+[2025.02.27-09.17.10:193][454]LogContentBundle: [ThirdPersonMap(独立)] Generating Streaming for 0 Content Bundles.
+[2025.02.27-09.17.10:193][454]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.02.27-09.17.10:195][454]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.696 ms (total: 52.338 ms)
+[2025.02.27-09.17.10:196][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.27-09.17.10:196][454]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-09.17.10:200][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003419s)
+[2025.02.27-09.17.10:200][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003450s)
+[2025.02.27-09.17.10:218][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.02.27-09.17.10:220][454]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.02.27-09.17.10:222][454]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.27-09.17.10:222][454]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.27-09.17.10:222][454]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.27-09.17.10:222][454]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.27-09.17.10:223][454]LogWorldPartition: Display: WorldPartition initialize took 1.245 ms (total: 376.740 ms)
+[2025.02.27-09.17.10:223][454]LogPlayLevel: PIE: World Init took: (0.003108s)
+[2025.02.27-09.17.10:224][454]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.02.27-09.17.10:224][454]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.27-09.17.10:224][454]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.27-09.17.10:224][454]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.27-09.17.10:224][454]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.27-09.17.10:224][454]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.27-09.17.10:224][454]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.27-09.17.10:224][454]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.27-09.17.10:224][454]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.27-09.17.10:224][454]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.27-09.17.10:224][454]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.27-09.17.10:224][454]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.27-09.17.10:227][454]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.27-09.17.10:239][454]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2025.02.27-09.17.10:239][454]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.27-09.17.10:239][454]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.27-09.17.10:239][454]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.27-09.17.10:240][454]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.02.27-09.17.10:240][454]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.02.27-09.17.10:242][454]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.02.27-09.17.10:242][454]LogInit: FAudioDevice initialized with ID 18.
+[2025.02.27-09.17.10:242][454]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.02.27-09.17.10:242][454]LogAudio: Display: Audio Device (ID: 18) registered with world 'ThirdPersonMap'.
+[2025.02.27-09.17.10:242][454]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.02.27-09.17.10:273][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-09.17.10:273][454]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.02.27-09.17.10:280][454]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.02.27-17.17.10
+[2025.02.27-09.17.10:281][454]LogWorld: Bringing up level for play took: 0.008350
+[2025.02.27-09.17.10:284][454]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2025.02.27-09.17.10:293][454]PIE: 登陆的服务器
+[2025.02.27-09.17.10:295][454]PIE: PIE总开始时间：0.102秒。
+[2025.02.27-09.17.14:106][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-09.17.14:106][677]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-09.17.14:106][677]LogSlate: Window 'RPG_Gorka 预览 [NetMode: Standalone 0]  （64-bit/PC D3D SM6）' being destroyed
+[2025.02.27-09.17.14:113][677]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.17.14:113][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.17.14:113][677]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.02.27-09.17.14:120][677]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.27-09.17.14:123][677]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.17.14:141][677]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.27-09.17.14:142][677]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.02.27-09.17.14:142][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.02.27-09.17.14:146][677]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.02.27-09.17.14:153][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.02.27-09.17.14:190][678]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2025.02.27-09.17.28:249][484]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.17.28:279][484]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.02.27-09.17.28:302][484]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.02.27-09.17.28:302][484]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.02.27-09.17.28:399][484]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.02.27-09.17.28:399][484]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BP_ThirdPersonCharacter92041E4D436DABCF7C51FD928C9EB465.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.02.27-09.17.28:409][484]LogFileHelpers: InternalPromptForCheckoutAndSave took 160.135 ms (total: 1.89 sec)
+[2025.02.27-09.17.28:442][484]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.17.28:442][484]LogContentValidation: Enabled validators:
+[2025.02.27-09.17.28:442][484]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.17.28:442][484]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.17.28:442][484]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.17.28:442][484]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.17.28:442][484]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.17.28:442][484]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.17.28:442][484]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter 正在验证资产
+[2025.02.27-09.17.29:362][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.02.27-09.17.30:305][557]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.17.30:333][557]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2025.02.27-09.17.30:353][557]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2025.02.27-09.17.30:353][557]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2025.02.27-09.17.30:451][557]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2025.02.27-09.17.30:451][557]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BP_ThirdPersonCharacter21BBD9CF48A0FAAB117ED2BAA415D2CB.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2025.02.27-09.17.30:460][557]LogFileHelpers: InternalPromptForCheckoutAndSave took 154.621 ms (total: 2.04 sec)
+[2025.02.27-09.17.30:491][557]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.17.30:491][557]LogContentValidation: Enabled validators:
+[2025.02.27-09.17.30:491][557]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.17.30:491][557]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.17.30:491][557]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.17.30:491][557]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.17.30:491][557]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.17.30:491][557]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.17.30:491][557]AssetCheck: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter 正在验证资产
+[2025.02.27-09.17.31:656][627]LogDebuggerCommands: Repeating last play command: 新建编辑器窗口（PIE）
+[2025.02.27-09.17.31:662][627]LogContentBundle: [ThirdPersonMap(独立)] Generating Streaming for 0 Content Bundles.
+[2025.02.27-09.17.31:662][627]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.02.27-09.17.31:663][627]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.810 ms (total: 54.148 ms)
+[2025.02.27-09.17.31:665][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.27-09.17.31:665][627]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-09.17.31:668][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003202s)
+[2025.02.27-09.17.31:668][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003231s)
+[2025.02.27-09.17.31:690][627]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.02.27-09.17.31:692][627]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.02.27-09.17.31:694][627]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.27-09.17.31:694][627]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.27-09.17.31:694][627]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.27-09.17.31:694][627]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.27-09.17.31:695][627]LogWorldPartition: Display: WorldPartition initialize took 1.118 ms (total: 377.859 ms)
+[2025.02.27-09.17.31:695][627]LogPlayLevel: PIE: World Init took: (0.002489s)
+[2025.02.27-09.17.31:696][627]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2025.02.27-09.17.31:696][627]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.27-09.17.31:696][627]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.27-09.17.31:696][627]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.27-09.17.31:696][627]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.27-09.17.31:696][627]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.27-09.17.31:696][627]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.27-09.17.31:696][627]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.27-09.17.31:696][627]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.27-09.17.31:696][627]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.27-09.17.31:696][627]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.27-09.17.31:696][627]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.27-09.17.31:698][627]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.27-09.17.31:709][627]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2025.02.27-09.17.31:709][627]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.27-09.17.31:709][627]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.27-09.17.31:709][627]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.27-09.17.31:710][627]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2025.02.27-09.17.31:710][627]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2025.02.27-09.17.31:712][627]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2025.02.27-09.17.31:712][627]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2025.02.27-09.17.31:712][627]LogInit: FAudioDevice initialized with ID 19.
+[2025.02.27-09.17.31:712][627]LogAudio: Display: Audio Device (ID: 19) registered with world 'ThirdPersonMap'.
+[2025.02.27-09.17.31:712][627]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2025.02.27-09.17.31:741][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-09.17.31:741][627]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.02.27-09.17.31:749][627]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.02.27-17.17.31
+[2025.02.27-09.17.31:750][627]LogWorld: Bringing up level for play took: 0.007593
+[2025.02.27-09.17.31:752][627]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2025.02.27-09.17.31:761][627]PIE: 登陆的服务器
+[2025.02.27-09.17.31:762][627]PIE: PIE总开始时间：0.101秒。
+[2025.02.27-09.17.51:575][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-09.17.51:575][810]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-09.17.51:577][810]LogSlate: Window 'RPG_Gorka 预览 [NetMode: Standalone 0]  （64-bit/PC D3D SM6）' being destroyed
+[2025.02.27-09.17.51:583][810]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.17.51:584][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.17.51:584][810]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.02.27-09.17.51:590][810]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.27-09.17.51:594][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.17.51:613][810]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.27-09.17.51:614][810]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2025.02.27-09.17.51:614][810]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2025.02.27-09.17.51:616][810]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2025.02.27-09.17.51:623][810]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2025.02.27-09.17.51:670][811]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2025.02.27-09.18.21:652][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.02.27-09.18.22:096][604]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.18.22:129][604]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BPC_EquipmentSystem] ([2] browsable assets)...
+[2025.02.27-09.18.22:129][604]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BPC_EquipmentSystem]
+[2025.02.27-09.18.22:129][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BPC_EquipmentSystem" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset" SILENT=true
+[2025.02.27-09.18.22:135][604]LogSavePackage: Moving output files for package: /Game/Equipment_System/BPC_EquipmentSystem
+[2025.02.27-09.18.22:136][604]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BPC_EquipmentSystem56A297264E235D6E7E8912B44241B6EE.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset'
+[2025.02.27-09.18.22:143][604]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.817 ms (total: 2.09 sec)
+[2025.02.27-09.18.22:184][604]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.18.22:184][604]LogContentValidation: Enabled validators:
+[2025.02.27-09.18.22:184][604]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.18.22:184][604]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.18.22:184][604]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.18.22:184][604]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.18.22:184][604]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.18.22:184][604]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.18.22:184][604]AssetCheck: /Game/Equipment_System/BPC_EquipmentSystem 正在验证资产
+[2025.02.27-09.18.30:119][ 80]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5063.743652
+[2025.02.27-09.18.30:435][ 99]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.27-09.18.30:435][ 99]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5064.043945, Update Interval: 359.227264
+[2025.02.27-09.18.31:649][172]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.18.31:682][172]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BPC_EquipmentSystem] ([2] browsable assets)...
+[2025.02.27-09.18.31:682][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BPC_EquipmentSystem]
+[2025.02.27-09.18.31:682][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BPC_EquipmentSystem" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset" SILENT=true
+[2025.02.27-09.18.31:688][172]LogSavePackage: Moving output files for package: /Game/Equipment_System/BPC_EquipmentSystem
+[2025.02.27-09.18.31:689][172]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BPC_EquipmentSystemF2861627449D4C0D4B7858B530A38A97.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset'
+[2025.02.27-09.18.31:696][172]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.318 ms (total: 2.14 sec)
+[2025.02.27-09.18.31:731][172]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.18.31:731][172]LogContentValidation: Enabled validators:
+[2025.02.27-09.18.31:731][172]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.18.31:731][172]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.18.31:731][172]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.18.31:731][172]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.18.31:731][172]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.18.31:731][172]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.18.31:731][172]AssetCheck: /Game/Equipment_System/BPC_EquipmentSystem 正在验证资产
+[2025.02.27-09.18.32:959][246]LogDebuggerCommands: Repeating last play command: 新建编辑器窗口（PIE）
+[2025.02.27-09.18.32:966][246]LogContentBundle: [ThirdPersonMap(独立)] Generating Streaming for 0 Content Bundles.
+[2025.02.27-09.18.32:966][246]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.02.27-09.18.32:967][246]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.666 ms (total: 55.815 ms)
+[2025.02.27-09.18.32:968][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.27-09.18.32:968][246]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-09.18.32:972][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003270s)
+[2025.02.27-09.18.32:972][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003298s)
+[2025.02.27-09.18.32:990][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.02.27-09.18.32:993][246]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.02.27-09.18.32:994][246]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.27-09.18.32:994][246]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.27-09.18.32:994][246]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.27-09.18.32:994][246]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.27-09.18.32:995][246]LogWorldPartition: Display: WorldPartition initialize took 1.100 ms (total: 378.959 ms)
+[2025.02.27-09.18.32:995][246]LogPlayLevel: PIE: World Init took: (0.002468s)
+[2025.02.27-09.18.32:996][246]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2025.02.27-09.18.32:996][246]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.27-09.18.32:996][246]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.27-09.18.32:996][246]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.27-09.18.32:996][246]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.27-09.18.32:996][246]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.27-09.18.32:996][246]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.27-09.18.32:996][246]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.27-09.18.32:996][246]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.27-09.18.32:996][246]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.27-09.18.32:996][246]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.27-09.18.32:996][246]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.27-09.18.32:998][246]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.27-09.18.33:008][246]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2025.02.27-09.18.33:009][246]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.27-09.18.33:009][246]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.27-09.18.33:009][246]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.27-09.18.33:009][246]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2025.02.27-09.18.33:009][246]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2025.02.27-09.18.33:012][246]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2025.02.27-09.18.33:012][246]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2025.02.27-09.18.33:012][246]LogInit: FAudioDevice initialized with ID 20.
+[2025.02.27-09.18.33:012][246]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonMap'.
+[2025.02.27-09.18.33:012][246]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2025.02.27-09.18.33:044][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-09.18.33:044][246]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.02.27-09.18.33:051][246]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.02.27-17.18.33
+[2025.02.27-09.18.33:052][246]LogWorld: Bringing up level for play took: 0.007573
+[2025.02.27-09.18.33:054][246]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2025.02.27-09.18.33:063][246]PIE: 登陆的服务器
+[2025.02.27-09.18.33:064][246]PIE: PIE总开始时间：0.099秒。
+[2025.02.27-09.19.17:445][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-09.19.17:445][904]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-09.19.17:445][904]LogSlate: Window 'RPG_Gorka 预览 [NetMode: Standalone 0]  （64-bit/PC D3D SM6）' being destroyed
+[2025.02.27-09.19.17:451][904]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.19.17:452][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.19.17:452][904]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.02.27-09.19.17:458][904]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.27-09.19.17:462][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.19.17:482][904]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2025.02.27-09.19.17:482][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.02.27-09.19.17:484][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.02.27-09.19.17:491][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.02.27-09.19.17:528][905]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2025.02.27-09.20.46:633][168]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.20.46:662][168]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Equipment_System/BPC_EquipmentSystem] ([2] browsable assets)...
+[2025.02.27-09.20.46:662][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/Equipment_System/BPC_EquipmentSystem]
+[2025.02.27-09.20.46:662][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Equipment_System/BPC_EquipmentSystem" FILE="../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset" SILENT=true
+[2025.02.27-09.20.46:670][168]LogSavePackage: Moving output files for package: /Game/Equipment_System/BPC_EquipmentSystem
+[2025.02.27-09.20.46:671][168]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/BPC_EquipmentSystem28301E7246321BA81587F593B403CE74.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/Equipment_System/BPC_EquipmentSystem.uasset'
+[2025.02.27-09.20.46:678][168]LogFileHelpers: InternalPromptForCheckoutAndSave took 44.537 ms (total: 2.18 sec)
+[2025.02.27-09.20.46:710][168]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.27-09.20.46:710][168]LogContentValidation: Enabled validators:
+[2025.02.27-09.20.46:710][168]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.20.46:710][168]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.20.46:710][168]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.20.46:710][168]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.20.46:710][168]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.20.46:710][168]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.20.46:710][168]AssetCheck: /Game/Equipment_System/BPC_EquipmentSystem 正在验证资产
+[2025.02.27-09.20.47:523][214]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.02.27-09.20.48:795][287]LogDebuggerCommands: Repeating last play command: 新建编辑器窗口（PIE）
+[2025.02.27-09.20.48:800][287]LogContentBundle: [ThirdPersonMap(独立)] Generating Streaming for 0 Content Bundles.
+[2025.02.27-09.20.48:800][287]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.02.27-09.20.48:802][287]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.646 ms (total: 57.461 ms)
+[2025.02.27-09.20.48:803][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.27-09.20.48:803][287]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-09.20.48:807][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003257s)
+[2025.02.27-09.20.48:807][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003286s)
+[2025.02.27-09.20.48:822][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.02.27-09.20.48:826][287]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.02.27-09.20.48:827][287]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.27-09.20.48:827][287]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.27-09.20.48:827][287]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.27-09.20.48:827][287]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.27-09.20.48:828][287]LogWorldPartition: Display: WorldPartition initialize took 1.082 ms (total: 380.042 ms)
+[2025.02.27-09.20.48:828][287]LogPlayLevel: PIE: World Init took: (0.002466s)
+[2025.02.27-09.20.48:829][287]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2025.02.27-09.20.48:829][287]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.27-09.20.48:829][287]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.27-09.20.48:829][287]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.27-09.20.48:829][287]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.27-09.20.48:829][287]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.27-09.20.48:829][287]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.27-09.20.48:829][287]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.27-09.20.48:829][287]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.27-09.20.48:829][287]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.27-09.20.48:829][287]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.27-09.20.48:829][287]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.27-09.20.48:831][287]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.27-09.20.48:841][287]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2025.02.27-09.20.48:841][287]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.27-09.20.48:841][287]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.27-09.20.48:841][287]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.27-09.20.48:842][287]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2025.02.27-09.20.48:842][287]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2025.02.27-09.20.48:845][287]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2025.02.27-09.20.48:845][287]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2025.02.27-09.20.48:845][287]LogInit: FAudioDevice initialized with ID 21.
+[2025.02.27-09.20.48:845][287]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonMap'.
+[2025.02.27-09.20.48:845][287]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2025.02.27-09.20.48:876][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-09.20.48:877][287]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.02.27-09.20.48:883][287]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.02.27-17.20.48
+[2025.02.27-09.20.48:885][287]LogWorld: Bringing up level for play took: 0.007705
+[2025.02.27-09.20.48:887][287]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2025.02.27-09.20.48:896][287]PIE: 登陆的服务器
+[2025.02.27-09.20.48:898][287]PIE: PIE总开始时间：0.098秒。
+[2025.02.27-09.20.54:334][608]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.20.55:592][684]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.20.56:109][715]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.20.56:375][731]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.20.57:476][797]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.20.57:709][811]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.20.57:976][827]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.21.20:476][177]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.21.20:759][194]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.21.20:959][206]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.21.21:193][220]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.21.21:476][237]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.21.21:726][252]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.21.21:960][266]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.21.34:335][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-09.21.34:335][  7]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-09.21.34:336][  7]LogSlate: Window 'RPG_Gorka 预览 [NetMode: Standalone 0]  （64-bit/PC D3D SM6）' being destroyed
+[2025.02.27-09.21.34:341][  7]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.21.34:342][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.21.34:342][  7]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.02.27-09.21.34:345][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.27-09.21.34:350][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.21.34:370][  7]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2025.02.27-09.21.34:370][  7]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.02.27-09.21.34:372][  7]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.02.27-09.21.34:380][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.02.27-09.21.34:430][  8]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2025.02.27-09.21.58:882][466]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.21.58:932][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.02.27-09.21.58:954][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2025.02.27-09.21.58:974][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.02.27-09.21.58:977][466]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/FA/HDAOKBV8UUB9D5YCSOTBEZ
+[2025.02.27-09.21.58:977][466]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/HDAOKBV8UUB9D5YCSOTBEZEB3B24054B2FBF6A7C77E59C38E4F399.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/FA/HDAOKBV8UUB9D5YCSOTBEZ.uasset'
+[2025.02.27-09.21.58:979][466]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QZ/H542ZS151NGQICO51R0R5W
+[2025.02.27-09.21.58:979][466]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/H542ZS151NGQICO51R0R5WE3C3900D45ED775A2A733A9FA87898BD.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/QZ/H542ZS151NGQICO51R0R5W.uasset'
+[2025.02.27-09.21.58:980][466]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4K/Z3JDG9QEN96NWGGJRNRDDM
+[2025.02.27-09.21.58:980][466]LogSavePackage: Moving '../../../../../Project/Git/RPG_Gorka_Git/Saved/Z3JDG9QEN96NWGGJRNRDDMEAE5CB174BAD96494338579F986D1499.tmp' to '../../../../../Project/Git/RPG_Gorka_Git/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/B/4K/Z3JDG9QEN96NWGGJRNRDDM.uasset'
+[2025.02.27-09.21.59:009][466]LogFileHelpers: InternalPromptForCheckoutAndSave took 126.512 ms (total: 2.31 sec)
+[2025.02.27-09.21.59:038][466]LogContentValidation: Display: Starting to validate 3 assets
+[2025.02.27-09.21.59:038][466]LogContentValidation: Enabled validators:
+[2025.02.27-09.21.59:038][466]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.27-09.21.59:038][466]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.27-09.21.59:038][466]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.27-09.21.59:038][466]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.27-09.21.59:038][466]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.27-09.21.59:038][466]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.27-09.21.59:038][466]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap 正在验证资产
+[2025.02.27-09.21.59:986][522]LogDebuggerCommands: Repeating last play command: 新建编辑器窗口（PIE）
+[2025.02.27-09.21.59:991][522]LogContentBundle: [ThirdPersonMap(独立)] Generating Streaming for 0 Content Bundles.
+[2025.02.27-09.21.59:992][522]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.02.27-09.21.59:993][522]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.730 ms (total: 59.191 ms)
+[2025.02.27-09.21.59:995][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.27-09.21.59:995][522]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-09.21.59:999][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003401s)
+[2025.02.27-09.21.59:999][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003430s)
+[2025.02.27-09.22.00:017][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.02.27-09.22.00:019][522]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.02.27-09.22.00:020][522]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.02.27-09.22.00:020][522]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.02.27-09.22.00:020][522]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.02.27-09.22.00:020][522]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.02.27-09.22.00:022][522]LogWorldPartition: Display: WorldPartition initialize took 1.266 ms (total: 381.308 ms)
+[2025.02.27-09.22.00:022][522]LogPlayLevel: PIE: World Init took: (0.002938s)
+[2025.02.27-09.22.00:023][522]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2025.02.27-09.22.00:023][522]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.27-09.22.00:023][522]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.27-09.22.00:023][522]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.27-09.22.00:023][522]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.27-09.22.00:023][522]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.27-09.22.00:023][522]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.27-09.22.00:023][522]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.27-09.22.00:023][522]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.27-09.22.00:023][522]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.27-09.22.00:023][522]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.27-09.22.00:023][522]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.27-09.22.00:025][522]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.27-09.22.00:036][522]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Realtek(R) Audio)
+[2025.02.27-09.22.00:036][522]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.27-09.22.00:036][522]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.27-09.22.00:036][522]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.27-09.22.00:037][522]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2025.02.27-09.22.00:037][522]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2025.02.27-09.22.00:039][522]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2025.02.27-09.22.00:039][522]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2025.02.27-09.22.00:039][522]LogInit: FAudioDevice initialized with ID 22.
+[2025.02.27-09.22.00:039][522]LogAudio: Display: Audio Device (ID: 22) registered with world 'ThirdPersonMap'.
+[2025.02.27-09.22.00:039][522]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2025.02.27-09.22.00:064][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-09.22.00:064][522]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2025.02.27-09.22.00:071][522]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2025.02.27-17.22.00
+[2025.02.27-09.22.00:073][522]LogWorld: Bringing up level for play took: 0.007808
+[2025.02.27-09.22.00:075][522]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2025.02.27-09.22.00:084][522]PIE: 登陆的服务器
+[2025.02.27-09.22.00:085][522]PIE: PIE总开始时间：0.093秒。
+[2025.02.27-09.22.12:868][286]LogBlueprintUserMessages: [BPC_EquipmentSystem] HeavySword
+[2025.02.27-09.22.12:868][286]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.22.12:868][286]LogBlueprintUserMessages: [BPC_EquipmentSystem] WoodenRow
+[2025.02.27-09.22.14:651][393]LogBlueprintUserMessages: [BPC_EquipmentSystem] HeavySword
+[2025.02.27-09.22.14:651][393]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.22.14:651][393]LogBlueprintUserMessages: [BPC_EquipmentSystem] WoodenRow
+[2025.02.27-09.22.14:985][413]LogBlueprintUserMessages: [BPC_EquipmentSystem] HeavySword
+[2025.02.27-09.22.14:985][413]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.22.14:985][413]LogBlueprintUserMessages: [BPC_EquipmentSystem] WoodenRow
+[2025.02.27-09.22.18:435][620]LogBlueprintUserMessages: [BPC_EquipmentSystem] HeavySword
+[2025.02.27-09.22.18:435][620]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.22.18:435][620]LogBlueprintUserMessages: [BPC_EquipmentSystem] WoodenRow
+[2025.02.27-09.22.20:685][755]LogBlueprintUserMessages: [BPC_EquipmentSystem] HeavySword
+[2025.02.27-09.22.20:685][755]LogBlueprintUserMessages: [BPC_EquipmentSystem] LightSword
+[2025.02.27-09.22.20:685][755]LogBlueprintUserMessages: [BPC_EquipmentSystem] WoodenRow
+[2025.02.27-09.23.05:765][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.27-09.23.05:766][457]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.02.27-09.23.05:766][457]LogSlate: Window 'RPG_Gorka 预览 [NetMode: Standalone 0]  （64-bit/PC D3D SM6）' being destroyed
+[2025.02.27-09.23.05:773][457]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.23.05:774][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.05:774][457]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.02.27-09.23.05:777][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.27-09.23.05:781][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.05:805][457]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2025.02.27-09.23.05:805][457]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2025.02.27-09.23.05:807][457]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2025.02.27-09.23.05:815][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2025.02.27-09.23.05:837][458]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2025.02.27-09.23.07:741][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.02.27-09.23.28:973][845]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.27-09.23.29:025][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.02.27-09.23.29:048][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2025.02.27-09.23.29:066][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.02.27-09.23.29:077][845]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.680 ms (total: 2.41 sec)
+[2025.02.27-09.23.29:657][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2025.02.27-09.23.29:700][879]LogStall: Shutdown...
+[2025.02.27-09.23.29:700][879]LogStall: Shutdown complete.
+[2025.02.27-09.23.29:738][879]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.23.29:738][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.29:818][879]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.23.29:818][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.29:880][879]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.02.27-09.23.29:880][879]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.23.29:880][879]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.29:934][879]LogSlate: Window 'RPG_Gorka - 虚幻编辑器' being destroyed
+[2025.02.27-09.23.29:936][879]LogWindowsTextInputMethodSystem: Activated input method: 简体中文(中国大陆) - 微软拼音 (TSF IME).
+[2025.02.27-09.23.30:097][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.02.27-09.23.30:112][879]Cmd: QUIT_EDITOR
+[2025.02.27-09.23.30:112][880]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.02.27-09.23.30:122][880]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.02.27-09.23.30:122][880]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.02.27-09.23.30:122][880]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.02.27-09.23.30:124][880]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.23.30:124][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.30:124][880]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.02.27-09.23.30:138][880]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.02.27-09.23.30:141][880]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.02.27-09.23.30:147][880]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.23.30:147][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.30:150][880]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.23.30:150][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.30:153][880]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.23.30:153][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.30:156][880]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.23.30:156][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.30:159][880]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.23.30:159][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.30:161][880]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.23.30:162][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.30:164][880]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.23.30:165][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.30:168][880]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.02.27-09.23.30:168][880]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.27-09.23.30:174][880]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.02.27-09.23.30:182][880]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.02.27-09.23.30:182][880]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.02.27-09.23.30:182][880]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.02.27-09.23.30:286][880]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.02.27-09.23.30:286][880]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.02.27-09.23.30:287][880]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2025.02.27-09.23.30:287][880]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.02.27-09.23.30:287][880]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.02.27-09.23.30:289][880]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.02.27-09.23.30:305][880]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.02.27-09.23.30:305][880]LogAudio: Display: Audio Device Manager Shutdown
+[2025.02.27-09.23.30:308][880]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.02.27-09.23.30:309][880]LogExit: Preparing to exit.
+[2025.02.27-09.23.30:350][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.02.27-09.23.30:353][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:353][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:354][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:355][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:356][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:356][880]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.30:356][880]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.02.27-09.23.31:297][880]LogEditorDataStorage: Deinitializing
+[2025.02.27-09.23.31:578][880]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.02.27-09.23.31:610][880]LogExit: Editor shut down
+[2025.02.27-09.23.31:615][880]LogExit: Transaction tracking system shut down
+[2025.02.27-09.23.31:973][880]LogExit: Object subsystem successfully closed.
+[2025.02.27-09.23.32:018][880]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.02.27-09.23.32:286][880]LogMemoryProfiler: Shutdown
+[2025.02.27-09.23.32:286][880]LogNetworkingProfiler: Shutdown
+[2025.02.27-09.23.32:286][880]LoadingProfiler: Shutdown
+[2025.02.27-09.23.32:286][880]LogTimingProfiler: Shutdown
+[2025.02.27-09.23.32:719][880]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.02.27-09.23.32:720][880]RenderDocPlugin: plugin has been unloaded.
+[2025.02.27-09.23.32:747][880]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.02.27-09.23.32:747][880]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B65AA8D4E-4643-EF66-FB21-A7BA4B2468DB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.3-39772772%2B%2B%2BUE5%2BRelease-5.5&UserID=bb486fa840619e6c304b1c90c3f5b2d5%7C5c549b6b54264d80987bd3a89510fe9f%7C39dffeec-d3eb-42eb-a42c-9b3aab551a72&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.02.27-09.23.34:794][880]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.02.27-09.23.34:794][880]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.02.27-09.23.34:794][880]LogNFORDenoise: NFORDenoise function shutting down
+[2025.02.27-09.23.34:804][880]LogXGEController: Cleaning working directory: C:/Users/Kenwen/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.02.27-09.23.34:815][880]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.02.27-09.23.34:815][880]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.02.27-09.23.34:815][880]LogPakFile: Destroying PakPlatformFile
+[2025.02.27-09.23.35:101][880]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.02.27-09.23.35:156][880]LogExit: Exiting.
+[2025.02.27-09.23.35:181][880]Log file closed, 02/27/25 17:23:35
